@@ -1,7 +1,7 @@
 <template>
     <div class="app-contaniner">
         <!--头部-->
-        <mt-header fixed title="学校二手商城-vue项目"></mt-header>
+        <mt-header fixed title="购物商城-vue项目"></mt-header>
         <!--内容区-->
         <transition>
 		<router-view></router-view>
