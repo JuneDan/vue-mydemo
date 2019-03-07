@@ -1,16 +1,38 @@
 <template>
     <div>
         <!-- 轮播图区 -->
-        <h1>home</h1>
-        <mt-swipe :auto="5000">
-            <mt-swipe-item>1</mt-swipe-item>
-            <mt-swipe-item>2</mt-swipe-item>
-            <mt-swipe-item>3</mt-swipe-item> 
+        <mt-swipe :auto="3000">
+            <mt-swipe-item></mt-swipe-item>
+            <mt-swipe-item></mt-swipe-item>
+            <mt-swipe-item></mt-swipe-item> 
         </mt-swipe>
     </div>
 </template>
 <script>
+    import { Toast } from 'mint-ui'
+    export default {
+        data() {
+            return {
+                lunbotulist: []
+            }
+        },
+        created() {
+            this.getswipe()
+        },
+        methods: {
+            getswipe() {
+                this.$http.get('http://vue.study.io/getlunbo').then(result =>{
+                    // console.log(result.body);
+                    if(result.body.status === 0) {
+                        this.lunbotulist = result.body.message;
 
+                    }else{
+                        Toast('加载失败')
+                    }
+                });
+            }
+        }
+    }
 </script>
 <style lang="scss" scoped>
 .mint-swipe {   
@@ -24,6 +46,10 @@
         }
         &:nth-child(3) {
             background-color: blue;
+        }
+        img {
+            width: 100%;
+            height: 100%;
         }
     }
 

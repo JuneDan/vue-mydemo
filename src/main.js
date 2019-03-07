@@ -10,6 +10,10 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
+//导入 vue-resource
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+
 //导入 router.js 路由模块
 import router from './router.js'
 
