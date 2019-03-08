@@ -13,6 +13,8 @@ Vue.use(VueRouter)
 //导入 vue-resource
 import VueResource from 'vue-resource'
 Vue.use(VueResource)
+//全局定义域名
+// Vue.http.options.root = '/root'
 
 //导入 router.js 路由模块
 import router from './router.js'

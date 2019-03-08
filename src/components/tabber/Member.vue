@@ -3,7 +3,7 @@
 	                	<ul class="mui-table-view mui-table-view-chevron">
 							<li class="mui-table-view-cell mui-media">
 								<a class="mui-navigate-right" href="#account">
-									<img class="mui-media-object mui-pull-left head-img" id="head-img" src="">
+									<img class="mui-media-object mui-pull-left head-img" id="head-img" src="https://avatars3.githubusercontent.com/u/46219372?s=40&v=4">
 									<div class="mui-media-body">
 										Hello MR.June
 										<p class='mui-ellipsis'>账号:JuneDan</p>
