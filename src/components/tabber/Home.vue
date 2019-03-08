@@ -2,9 +2,12 @@
     <div>
         <!-- 轮播图区 -->
         <mt-swipe :auto="3000">
-            <mt-swipe-item></mt-swipe-item>
-            <mt-swipe-item></mt-swipe-item>
-            <mt-swipe-item></mt-swipe-item> 
+            <mt-swipe-item><a href="#"><img src="../../images/01210.jpg"></img></a></mt-swipe-item>
+            <mt-swipe-item><a href="#"><img src="../../images/timg.jpg"></img></a></mt-swipe-item>
+            <mt-swipe-item><a href="#"><img src="../../images/nv.jpg"></img></a></mt-swipe-item>
+            <mt-swipe-item><a href="#"><img src="../../images/kii.jpg"></img></a></mt-swipe-item>
+            <mt-swipe-item><a href="#"><img src="../../images/kouhong.jpg"></img></a></mt-swipe-item> 
+            <mt-swipe-item><a href="#"><img src="../../images/t.jpg"></img></a></mt-swipe-item>
         </mt-swipe>
         <!--功能区-->
         <ul class="mui-table-view mui-grid-view mui-grid-9">
