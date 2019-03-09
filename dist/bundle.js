@@ -23787,7 +23787,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n.mint-swipe[data-v-71532654] {\n  height: 200px;\n}\n.mint-swipe .mint-swipe-item[data-v-71532654]:nth-child(1) {\n    background-color: red;\n}\n.mint-swipe .mint-swipe-item[data-v-71532654]:nth-child(2) {\n    background-color: green;\n}\n.mint-swipe .mint-swipe-item[data-v-71532654]:nth-child(3) {\n    background-color: blue;\n}\n.mint-swipe .mint-swipe-item img[data-v-71532654] {\n    width: 100%;\n    height: 100%;\n}\n.mui-table-view[data-v-71532654] {\n  background-color: #fff;\n}\n.mui-table-view img[data-v-71532654] {\n    width: 60px;\n    height: 60px;\n}\n.mui-table-view .mui-media-body[data-v-71532654] {\n    font-size: 13px;\n}\n", ""]);
+exports.push([module.i, "\n.mint-swipe[data-v-71532654] {\n  height: 200px;\n}\n.mint-swipe .mint-swipe-item img[data-v-71532654] {\n    width: 100%;\n    height: 100%;\n}\n.mui-table-view[data-v-71532654] {\n  background-color: #fff;\n}\n.mui-table-view img[data-v-71532654] {\n    width: 60px;\n    height: 60px;\n}\n.mui-table-view .mui-media-body[data-v-71532654] {\n    font-size: 13px;\n}\n", ""]);
 
 // exports
 
