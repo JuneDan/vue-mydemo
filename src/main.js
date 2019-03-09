@@ -20,13 +20,14 @@ Vue.use(VueResource)
 import router from './router.js'
 
 //按需导入 mint-ui 框架
-import { Header, Swipe, SwipeItem, CellSwipe } from 'mint-ui'
+import { Header, Swipe, SwipeItem, CellSwipe, Search } from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
 Vue.component(Header.name, Header)
 Vue.component(Swipe.name, Swipe)
 Vue.component(SwipeItem.name, SwipeItem)
 Vue.component(CellSwipe.name, CellSwipe)
+Vue.component(Search.name, Search);
 
 //导入MUI的样式
 import './lib/mui/css/mui.min.css'

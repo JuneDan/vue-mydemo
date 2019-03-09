@@ -1,7 +1,11 @@
 <template>
     <div class="app-contaniner">
         <!--头部-->
-        <mt-header fixed title="购物商城-vue项目"></mt-header>
+        <mt-header fixed title="购物商城">
+			<span slot="left" @click="goback" v-show="flag">
+				<mt-button icon="back">〈 返回</mt-button>
+			</span>
+		</mt-header>
         <!--内容区-->
         <transition>
 		<router-view></router-view>
@@ -28,6 +32,31 @@
     </div>
 </template>
 <script>
+
+	export default {
+		data() {
+			return {
+				flag: false
+			};
+		},
+		methods: {
+			goback() {
+				this.$router.go(-1);
+			}
+		},
+		created() {
+			this.flag = this.$route.path === '/home'? false : true;
+		},
+		watch: {
+			'$route.path': function(newval) {
+				if(newval === '/home') {
+					this.flag = false
+				}else{
+					this.flag = true
+				}
+			}
+		}
+	}
 </script>
 <style lang="scss" scoped>
     .app-contaniner {

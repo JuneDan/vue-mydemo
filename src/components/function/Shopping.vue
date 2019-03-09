@@ -1,3 +1,4 @@
+// 引用shopcar组件
 <template>
     <div id="shopcar" class="shopcar"></div>
 </template>
@@ -24,8 +25,9 @@ export default {
             setTimeout(function () {
                    document.getElementById('shopcar').innerHTML="<p>加载失败...</p>"
                 } ,3000);  
-            clearTimeout();     
+                clearTimeout()         
         }
+
     }
 }
 </script>
