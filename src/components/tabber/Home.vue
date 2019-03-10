@@ -14,24 +14,24 @@
         </mt-swipe>
         <!--功能区-->
         <ul class="mui-table-view mui-grid-view mui-grid-9">
-		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newsList">
+		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newslist">
 		        <img src="../../images/menu1.png">
-		        <div class="mui-media-body">新闻资讯</div></router-link></li>
-		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/photo">
+		        <div class="mui-media-body">校园资讯</div></router-link></li>
+		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/shopping">
 		        <img src="../../images/menu2.png">
-		        <div class="mui-media-body">图片分享</div></router-link></li>
-		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="home/shopping">
+		        <div class="mui-media-body">物品转转</div></router-link></li>
+		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="home/community">
 		        <img src="../../images/menu3.png">
-		        <div class="mui-media-body">商品购买</div></router-link></li>
+		        <div class="mui-media-body">社区分享</div></router-link></li>
 		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="home/words">
 		        <img src="../../images/menu4.png">
-		        <div class="mui-media-body">留言反馈</div></router-link></li>
-		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/video">
+		        <div class="mui-media-body">今日留言</div></router-link></li>
+		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/job">
 		        <img src="../../images/menu5.png">
-		        <div class="mui-media-body">视频专区</div></router-link></li>
-		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="home/contacts">
+		        <div class="mui-media-body">兼职发布</div></router-link></li>
+		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="home/laf">
 		        <img src="../../images/menu6.png">
-		        <div class="mui-media-body">联系我们</div></router-link></li>
+		        <div class="mui-media-body">失物招领</div></router-link></li>
 		</ul> 
     </div>
 </template>

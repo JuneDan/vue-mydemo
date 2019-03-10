@@ -8,11 +8,18 @@ import Shopcar from './components/tabber/Shopcar.vue'
 import Member from './components/tabber/Member.vue'
 
 import NewsList from './components/function/NewsList.vue'
-import Video from './components/function/video.vue'
-import Photo from './components/function/Photo.vue'
+import Job from './components/function/Job.vue'
 import Shopping from './components/function/Shopping.vue'
+import Community from './components/function/Community.vue'
 import Words from './components/function/words.vue'
-import Contacts from './components/function/contacts.vue'
+import LAF from './components/function/LAF.vue'
+
+import one from './components/setting/one.vue'
+import two from './components/setting/two.vue'
+import three from './components/setting/three.vue'
+import four from './components/setting/four.vue'
+import five from './components/setting/five.vue'
+
 
 //创建路由对象
 var router = new VueRouter({
@@ -23,11 +30,16 @@ var router = new VueRouter({
         { path: '/shopcar', component: Shopcar},
         { path: '/member', component: Member},
         { path: '/home/newslist', component: NewsList },
-        { path: '/home/video', component: Video },
-        { path: '/home/photo', component: Photo },
+        { path: '/home/job', component: Job },
         { path: '/home/shopping', component: Shopping },
+        { path: '/home/community', component: Community },
         { path: '/home/words', component: Words },
-        { path: '/home/contacts', component: Contacts }
+        { path: '/home/laf', component: LAF },
+        { path: '/member/one', component: one },
+        { path: '/member/two', component: two },
+        { path: '/member/three', component: three },
+        { path: '/member/four', component: four },
+        { path: '/member/five', component: five }
     ],
     linkActiveClass: 'mui-active'
 })

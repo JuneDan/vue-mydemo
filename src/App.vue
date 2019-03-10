@@ -1,7 +1,7 @@
 <template>
     <div class="app-contaniner">
         <!--头部-->
-        <mt-header fixed title="购物商城">
+        <mt-header fixed title="南院转转">
 			<span slot="left" @click="goback" v-show="flag">
 				<mt-button icon="back">〈 返回</mt-button>
 			</span>
@@ -22,7 +22,7 @@
 			</router-link>
 			<router-link class="mui-tab-item" to="/shopcar">
 				<span class="mui-icon mui-icon-extra mui-icon-extra-cart"><span class="mui-badge">0</span></span>
-				<span class="mui-tab-label">购物车</span>
+				<span class="mui-tab-label">转转</span>
 			</router-link>
 			<router-link class="mui-tab-item" to="/member">
 				<span class="mui-icon mui-icon-contact"></span>

@@ -24,10 +24,9 @@ export default {
                 } ,2000);
             setTimeout(function () {
                    document.getElementById('shopcar').innerHTML="<p>加载失败...</p>"
-                } ,3000);  
-                clearTimeout()         
+                } ,3000);
+            clearTimeout();          
         }
-
     }
 }
 </script>
